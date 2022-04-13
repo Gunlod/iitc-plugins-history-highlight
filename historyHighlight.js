@@ -2,7 +2,7 @@
 // @id             HistoryHighlight
 // @name           History Highlight
 // @author         Gunlod
-// @category       Highlight
+// @category       Highlighter
 // @version        0.0.1
 // @description    Adds highlighters for portal history information
 // @match          *://intel.ingress.com/*
