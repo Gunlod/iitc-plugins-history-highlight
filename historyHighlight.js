@@ -98,12 +98,12 @@
      }
  
      function setup() {
-         window.addPortalHighlighter("History: Unvisited Portals Only", thisPlugin.unvisitedHighlight);
-         window.addPortalHighlighter("History: Uncaptured Portals Only", thisPlugin.uncapturedHighlight);
-         window.addPortalHighlighter("History: Unscouted Portals Only", thisPlugin.unscoutedHighlight);
-         window.addPortalHighlighter("History: Unvisited Portals Only (thin)", thisPlugin.unvisitedHighlightThin);
-         window.addPortalHighlighter("History: Uncaptured Portals Only (thin)", thisPlugin.uncapturedHighlightThin);
-         window.addPortalHighlighter("History: Unscouted Portals Only (thin)", thisPlugin.unscoutedHighlightThin);
+         window.addPortalHighlighter("History: Unvisited", thisPlugin.unvisitedHighlight);
+         window.addPortalHighlighter("History: Uncaptured", thisPlugin.uncapturedHighlight);
+         window.addPortalHighlighter("History: Unscouted", thisPlugin.unscoutedHighlight);
+         window.addPortalHighlighter("History: Unvisited (thin)", thisPlugin.unvisitedHighlightThin);
+         window.addPortalHighlighter("History: Uncaptured (thin)", thisPlugin.uncapturedHighlightThin);
+         window.addPortalHighlighter("History: Unscouted (thin)", thisPlugin.unscoutedHighlightThin);
          
          setup.info = plugin_info; //add the script info data to the function as a property
      // if IITC has already booted, immediately run the 'setup' function
@@ -117,9 +117,7 @@
          window.bootPlugins.push(setup);
      }
  }
- 
- 
- 
+
  (function () {
      const plugin_info = {};
      if (typeof GM_info !== 'undefined' && GM_info && GM_info.script) {
